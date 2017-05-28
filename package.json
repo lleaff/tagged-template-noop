@@ -1,0 +1,28 @@
+{
+  "name": "tagged-template-noop",
+  "version": "1.0.0",
+  "description": "No-op function for tagged template literals.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lleaff/tagged-template-noop.git"
+  },
+  "keywords": [
+    "tagged template string",
+    "tagged template literal",
+    "string",
+    "noop"
+  ],
+  "author": "lleaff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lleaff/tagged-template-noop/issues"
+  },
+  "homepage": "https://github.com/lleaff/tagged-template-noop#readme"
+}
