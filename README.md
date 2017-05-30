@@ -1,6 +1,6 @@
 # Tagged template literal noop
 
-[![npm](https://img.shields.io/npm/v/tagged-template-noop)](https://www.npmjs.com/package/tagged-template-noop)
+[![npm](https://img.shields.io/npm/v/tagged-template-noop.svg)](https://www.npmjs.com/package/tagged-template-noop)
 
 This module exports a single function that can be called with an ES2015 [template string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_template_literals) to have the same effect as not using any template function with your template literal.
 
@@ -16,7 +16,7 @@ assert(
 ```
 
 Possible uses include:
-* Funky functional-style programming, e.g.:
+* Expression-oriented programming style, e.g.:
 
     ```javascript
     app.send((argv.escapeHtml ? escapeHtml : noopt)`
