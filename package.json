@@ -1,6 +1,6 @@
 {
   "name": "tagged-template-noop",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "No-op function for tagged template literals.",
   "main": "index.js",
   "engines": {
