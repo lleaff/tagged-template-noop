@@ -7,7 +7,7 @@ This module exports a single function that can be called with an ES2015 [templat
 ```javascript
 const noopt = require('tagged-template-noop');
 
-const adjective = 'totally';
+const qualifier = 'totally';
 
 assert(
   noopt`Hopefully, I will be ${qualifier} useless.`
@@ -20,12 +20,12 @@ Possible uses include:
 
     ```javascript
     app.send((argv.escapeHtml ? escapeHtml : noopt)`
-    <!doctype html>
-    <html>
-      <body>
-        Hello ${form.username} !
-      </body>
-    </html>`
+      <!doctype html>
+      <html>
+        <body>
+          Hello ${form.username} !
+        </body>
+      </html>`
     );
     ```
 * Testing
